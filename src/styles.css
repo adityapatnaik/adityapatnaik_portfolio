@@ -1,0 +1,200 @@
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: calc(100vw - 20%);
+}
+
+:root {
+  /*-----------*/
+  /* Colors */
+  --clr-dark: #171717;
+  --clr-light: #eeefff;
+  --clr-white: #ffffff;
+  /* Colors */
+
+  /* font-sizes */
+  --fs-900: 9.375rem;
+  --fs-800: 6.25rem;
+  --fs-700: 3.5rem;
+  --fs-600: 2rem;
+  --fs-500: 1.75rem;
+  --fs-400: 1.125rem;
+  --fs-300: 1rem;
+  --fs-200: 0.875rem;
+  /* font-sizes */
+
+  /* font-families */
+  --ff-cursive: "Niconne", cursive;
+  --ff-montserrat: "Montserrat", sans-serif;
+  --ff-sans-normal: "Roboto", sans-serif;
+  /* font-families */
+
+  /* Main Section Padding */
+  --main-padding: 0 var(--font-rythm);
+  /* Padding */
+
+  --flow-gap: 1rem;
+  --highlight-background: linear-gradient(
+    102deg,
+    #0cf 0%,
+    rgb(0, 153, 255) 100%
+  );
+  --divider-var: 0.01rem solid #9aa0a6;
+  --background-color: var(--clr-white);
+  --font-rythm: 1.5rem;
+  --line-height: 1.5;
+  --system-family-default: "Roboto", sans-serif;
+  text-align: justify;
+  /* font-size: 62.5%; */
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  font-family: var(--ff-sans-normal);
+  line-height: var(--line-height);
+  letter-spacing: 0.02rem;
+  font-size: var(--fs-400);
+  color: var(--clr-white);
+  background-color: var(--clr-dark);
+  font-weight: 400;
+  overflow-x: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+}
