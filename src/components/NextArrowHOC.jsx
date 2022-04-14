@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { BsArrowRightCircle } from "react-icons/bs";
 
 const NextIcon = styled.div`
-  position: absolute;
+  position: fixed;
   bottom: 5%;
   right: 10%;
   font-size: 2rem;
