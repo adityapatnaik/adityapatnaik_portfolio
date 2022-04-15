@@ -48,6 +48,12 @@ export const Footer = styled.span`
   z-index: 1;
 `;
 
+export const Filler = styled.div`
+  min-height: 4rem;
+  width: 100%;
+  content: " ";
+`;
+
 export const Overlay = styled.div`
   position: fixed;
   height: 100px;
