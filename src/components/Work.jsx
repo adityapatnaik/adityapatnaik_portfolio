@@ -1,12 +1,13 @@
 import { Layout, Title, Tagline, Footer } from "../StyledComponents/Components";
 import NextArrowHOC from "./NextArrowHOC";
-const Work = ({ title, byLine, footer }) => {
+import Globals from "../Globals";
+const Work = () => {
   return (
     <NextArrowHOC link="/skills">
       <Layout>
-        <Title>{title}</Title>
-        <Tagline>{byLine}</Tagline>
-        <Footer>{footer}</Footer>
+        <Title>{Globals.position}</Title>
+        <Tagline>{Globals.roleAtOrg}</Tagline>
+        <Footer>{Globals.menu["work"]}</Footer>
       </Layout>
     </NextArrowHOC>
   );

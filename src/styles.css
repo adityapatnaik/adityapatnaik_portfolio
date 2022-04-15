@@ -1,6 +1,6 @@
 #root {
   height: 100%;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: center;
 }
@@ -68,7 +68,10 @@ body {
   letter-spacing: 0.02rem;
   font-size: var(--fs-400);
   color: var(--clr-white);
-  background-color: var(--clr-dark);
+  /* background-color: var(--clr-dark); */
+  background: url("./rainbow-vortex.svg") no-repeat;
+  /* background: url("./sun-tornado.svg") no-repeat; */
+  background-size: cover;
   font-weight: 400;
   overflow-x: hidden;
   -webkit-font-smoothing: subpixel-antialiased;

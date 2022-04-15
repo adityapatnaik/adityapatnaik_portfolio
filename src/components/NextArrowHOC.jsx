@@ -8,6 +8,7 @@ const NextIcon = styled.div`
   bottom: 5%;
   right: 10%;
   font-size: 2rem;
+  z-index: 1;
 `;
 
 const NextArrowHOC = (props) => {

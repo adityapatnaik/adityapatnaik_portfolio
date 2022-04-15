@@ -45,4 +45,33 @@ export const Footer = styled.span`
   position: fixed;
   bottom: 7%;
   margin-right: auto;
+  z-index: 1;
+`;
+
+export const Overlay = styled.div`
+  position: fixed;
+  height: 100px;
+  width: 100vw;
+  bottom: 0;
+  z-index: 0;
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.9136029411764706) 0%,
+    rgba(0, 0, 0, 1) 52%,
+    rgba(0, 0, 0, 0.8547794117647058) 100%
+  );
+  background: -webkit-linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.9136029411764706) 0%,
+    rgba(0, 0, 0, 1) 52%,
+    rgba(0, 0, 0, 0.8547794117647058) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.9136029411764706) 0%,
+    rgba(0, 0, 0, 1) 52%,
+    rgba(0, 0, 0, 0.8547794117647058) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 `;

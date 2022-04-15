@@ -1,12 +1,12 @@
 import { Layout, Title, Tagline, Footer } from "../StyledComponents/Components";
 import NextArrowHOC from "./NextArrowHOC";
-const Home = ({ title, byLine, footer }) => {
+import Globals from "../Globals";
+const Home = (props) => {
   return (
     <NextArrowHOC link="/about">
       <Layout>
-        <Title>{title}</Title>
-        <Tagline>{byLine}</Tagline>
-        <Footer>{footer}</Footer>
+        <Title>{Globals.title}</Title>
+        <Tagline>{Globals.role}</Tagline>
       </Layout>
     </NextArrowHOC>
   );

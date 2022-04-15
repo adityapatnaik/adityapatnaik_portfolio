@@ -10,30 +10,9 @@ export default function App() {
   return (
     <div className="App">
       <Routes>
-        <Route
-          path="/"
-          element={<Home title="Aditya Patnaik" byLine="Fullstack Developer" />}
-        />
-        <Route
-          path="about"
-          element={
-            <About
-              title="I'm a Fullstack Developer"
-              byLine="I love to learn and network with people!"
-              footer="About"
-            />
-          }
-        />
-        <Route
-          path="work"
-          element={
-            <Work
-              title="Senior Systems Engineer @Infosys"
-              byLine="I develop Spring J2EE Enterprise Applications for a fintech giant."
-              footer="Work"
-            />
-          }
-        />
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="work" element={<Work />} />
         <Route
           path="skills"
           element={
