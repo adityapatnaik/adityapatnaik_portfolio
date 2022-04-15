@@ -43,6 +43,6 @@ export const Tagline = styled.span`
 
 export const Footer = styled.span`
   position: fixed;
-  bottom: 5%;
+  bottom: 7%;
   margin-right: auto;
 `;
