@@ -9,7 +9,15 @@ import { Routes, Route } from "react-router-dom";
 export default function App() {
   return (
     <div className="App">
-      <Routes>
+      <Home />
+      <About />
+      <Work />
+      <Skills
+        title="Backend / Frontend"
+        byLine="Spring, Node, Express, Django, Flask | React, Angular X, Electron, Jetpack Compose, Flutter and React Native"
+        footer="Skills"
+      />
+      {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="work" element={<Work />} />
@@ -31,7 +39,7 @@ export default function App() {
             </main>
           }
         />
-      </Routes>
+      </Routes> */}
     </div>
   );
 }

@@ -4,6 +4,7 @@ export const Layout = styled.div`
   display: flex;
   position: relative;
   width: calc(100% - 20%);
+  min-height: 100%;
   margin-top: 35vh;
   flex-direction: column;
   align-items: flex-start;

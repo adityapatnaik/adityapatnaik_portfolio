@@ -12,7 +12,7 @@ const About = () => {
             (el, ind) => el + (ind < Globals.hobbies.length - 1 ? ", " : "")
           )}
         </Tagline>
-        <Footer>{Globals.menu["about"]}</Footer>
+        {/* <Footer>{Globals.menu["about"]}</Footer> */}
       </Layout>
     </NextArrowHOC>
   );

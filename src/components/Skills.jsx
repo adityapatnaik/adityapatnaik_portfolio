@@ -25,7 +25,7 @@ const Skills = ({ title, byLine, footer }) => {
             </Fragment>
           );
         })}
-        <Footer>{Globals.menu["skills"]}</Footer>
+        {/* <Footer>{Globals.menu["skills"]}</Footer> */}
       </Layout>
       <Filler />
     </NextArrowHOC>

@@ -7,7 +7,7 @@ const Work = () => {
       <Layout>
         <Title>{Globals.position}</Title>
         <Tagline>{Globals.roleAtOrg}</Tagline>
-        <Footer>{Globals.menu["work"]}</Footer>
+        {/* <Footer>{Globals.menu["work"]}</Footer> */}
       </Layout>
     </NextArrowHOC>
   );
