@@ -51,7 +51,7 @@ const Globals = {
       "Django",
       "Flask"
     ],
-    Devops: ["Jenkins", "JIRA", "AGILE SPRINTS", "Confluent", "Notion"],
+    DevOps: ["Jenkins", "JIRA", "AGILE SPRINTS", "Confluent", "Notion"],
     Database: ["MongoDB", "PostgreSQL"]
   },
   menu: {

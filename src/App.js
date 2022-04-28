@@ -1,21 +1,19 @@
 import "./styles.css";
-import Home from "./components/Home";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Work from "./components/Work";
+import Parent from "./components/Parent";
 import NextArrowHOC from "./components/NextArrowHOC";
 import { Routes, Route } from "react-router-dom";
 
 export default function App() {
   return (
-    <div className="App">
-      <Home />
-      <About />
-      <Work />
-      <Skills
-        title="Backend / Frontend"
-        byLine="Spring, Node, Express, Django, Flask | React, Angular X, Electron, Jetpack Compose, Flutter and React Native"
-        footer="Skills"
+    <Routes>
+      <Route path="/" element={<Parent />} />
+      <Route
+        path="*"
+        element={
+          <main style={{ padding: "1rem" }}>
+            <p>There's nothing here!</p>
+          </main>
+        }
       />
       {/* <Routes>
         <Route path="/" element={<Home />} />
@@ -40,6 +38,6 @@ export default function App() {
           }
         />
       </Routes> */}
-    </div>
+    </Routes>
   );
 }
