@@ -9,7 +9,8 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: calc(100vw - 20%);
+  /* width: calc(100vw - 20%); */
+  width: 100%;
 }
 
 :root {
@@ -34,7 +35,7 @@
   /* font-families */
   --ff-cursive: "Niconne", cursive;
   --ff-montserrat: "Montserrat", sans-serif;
-  --ff-sans-normal: "Roboto", sans-serif;
+  --ff-sans-normal: "Quicksand", sans-serif;
   /* font-families */
 
   /* Main Section Padding */
