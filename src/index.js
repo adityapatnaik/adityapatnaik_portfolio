@@ -7,7 +7,6 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(
   <BrowserRouter>
     <App />
-    {/* <Overlay /> */}
   </BrowserRouter>,
   rootElement
 );

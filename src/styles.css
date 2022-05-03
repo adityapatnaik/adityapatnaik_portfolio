@@ -1,3 +1,12 @@
+.light-theme {
+  --back-color: #eeefff;
+}
+
+.dark-theme {
+  --accent-color: "#5DFF4F";
+  --back-color: #171717;
+}
+
 #root {
   height: 100%;
   width: 100vw;
@@ -17,7 +26,6 @@
   /*-----------*/
   /* Colors */
   --clr-dark: #171717;
-  --clr-light: #eeefff;
   --clr-white: #ffffff;
   /* Colors */
 
@@ -34,7 +42,7 @@
 
   /* font-families */
   --ff-cursive: "Niconne", cursive;
-  --ff-montserrat: "Montserrat", sans-serif;
+  --ff-inter: "Inter", sans-serif;
   --ff-sans-normal: "Quicksand", sans-serif;
   /* font-families */
 
@@ -49,7 +57,7 @@
     rgb(0, 153, 255) 100%
   );
   --divider-var: 0.01rem solid #9aa0a6;
-  --background-color: var(--clr-white);
+  --background-color: var(--back-color);
   --font-rythm: 1.5rem;
   --line-height: 1.5;
   --system-family-default: "Roboto", sans-serif;
@@ -68,8 +76,8 @@ body {
   line-height: var(--line-height);
   letter-spacing: 0.02rem;
   font-size: var(--fs-400);
-  color: var(--clr-white);
-  background-color: var(--clr-dark);
+  color: var(--clr-dark);
+  background-color: var(--background-color);
   /* background: url("/images/rainbow-vortex.svg") no-repeat; */
   /* background: url("./sun-tornado.svg") no-repeat; */
   background-size: cover;

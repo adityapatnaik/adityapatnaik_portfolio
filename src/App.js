@@ -1,6 +1,5 @@
 import "./styles.css";
 import Parent from "./components/Parent";
-import NextArrowHOC from "./components/NextArrowHOC";
 import { Routes, Route } from "react-router-dom";
 
 export default function App() {
