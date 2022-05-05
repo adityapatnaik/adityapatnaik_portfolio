@@ -8,7 +8,7 @@ const OuterLayout = styled.div`
   align-items: center;
   width: 100%;
   padding: 0px;
-  background: linear-gradient(180deg, #e1e7f4 0%, #f4daf6 72.98%, #4aedbc 100%);
+  /* background: linear-gradient(180deg, #e1e7f4 0%, #f4daf6 72.98%, #4aedbc 100%); */
 `;
 
 const HeroImage = styled.img`
@@ -33,13 +33,14 @@ const Heading = styled.div`
   font-weight: 800;
   font-size: 40px;
   line-height: 48px;
+  letter-spacing: 0.005em;
 `;
 
 const InnerLayout = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 48px 0px 0px;
+  padding: 48px 0px 48px;
   width: calc(100vw - 20%);
   @media (min-width: 1080px) {
     width: calc(100vw - 50%);

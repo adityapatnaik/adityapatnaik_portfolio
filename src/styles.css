@@ -77,8 +77,8 @@ body {
   letter-spacing: 0.02rem;
   font-size: var(--fs-400);
   color: var(--clr-dark);
-  /* background-color: var(--background-color); */
-  background: linear-gradient(
+  background-color: var(--background-color);
+  /* background: linear-gradient(
       179.3deg,
       rgba(247, 237, 237, 0.2) 0.7%,
       rgba(76, 115, 190, 0.189533) 9.1%,
@@ -86,7 +86,7 @@ body {
       rgba(173, 135, 235, 0.158219) 42.05%,
       rgba(46, 105, 220, 0.088) 90.55%
     ),
-    #ffffff;
+    #ffffff; */
   /* background: url("/images/rainbow-vortex.svg") no-repeat; */
   /* background: url("./sun-tornado.svg") no-repeat; */
   background-size: cover;

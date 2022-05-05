@@ -7,13 +7,13 @@ export const HeroSection = styled.div`
   align-items: center;
   width: 100%;
   padding: 0px;
-  background: linear-gradient(
+  /* background: linear-gradient(
       160.72deg,
       rgba(255, 255, 255, 0.2) 7.46%,
       rgba(218, 102, 220, 0.178) 48.99%,
       rgba(83, 169, 218, 0.154) 89.15%
     ),
-    #caf0f8;
+    #caf0f8; */
 
   position: relative;
   min-height: 646.4px;
