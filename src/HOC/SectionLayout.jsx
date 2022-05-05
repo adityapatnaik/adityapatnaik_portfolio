@@ -12,8 +12,8 @@ const OuterLayout = styled.div`
 `;
 
 const HeroImage = styled.img`
-  width: 345px;
-  height: 431px;
+  max-width: 100%;
+  height: auto;
 `;
 const Heading = styled.div`
   display: flex;
