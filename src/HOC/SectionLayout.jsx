@@ -7,7 +7,10 @@ const OuterLayout = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 0px;
+  padding: 48px 0px 0px;
+  @media (min-width: 1080px) {
+    width: calc(100vw - 20%);
+  }
   /* background: linear-gradient(180deg, #e1e7f4 0%, #f4daf6 72.98%, #4aedbc 100%); */
 `;
 
@@ -18,13 +21,13 @@ const HeroImage = styled.img`
 const Heading = styled.div`
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   padding: 16px 20px;
 
   /* Inside auto layout */
   flex: none;
   order: 0;
-  align-self: stretch;
+  /* align-self: stretch; */
   flex-grow: 0;
   margin: 28px 0px;
 
@@ -41,10 +44,10 @@ const InnerLayout = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 48px 0px 48px;
-  width: calc(100vw - 20%);
+  /* width: calc(100vw - 20%);
   @media (min-width: 1080px) {
     width: calc(100vw - 50%);
-  }
+  } */
 
   flex: none;
   order: 1;
@@ -54,12 +57,13 @@ const InnerLayout = styled.div`
 `;
 const Content = styled.div`
   /* Auto layout */
-
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
-  align-items: center;
+  align-items: initial;
   padding: 0px;
   /* Inside auto layout */
 

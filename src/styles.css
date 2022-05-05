@@ -17,6 +17,7 @@
 .App {
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100%;
   /* width: calc(100vw - 20%); */
   width: 100%;
